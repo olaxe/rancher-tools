@@ -1,5 +1,6 @@
 #!/bin/sh
 # Cleanup previous installation of Rancher 2, Kubernetes
+# Run it using this: curl -s https://raw.githubusercontent.com/olaxe/tools/master/rancher2/scripts/cleanup.sh | source /dev/stdin
 # Works well on Ubuntu 16.04 LTS and 18.04 LTS
 
 docker rm -f $(docker ps -qa)
